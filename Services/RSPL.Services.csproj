@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="SampleDashboardService.cs" />
+    <Compile Remove="SampleReceiverDashboardService.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mapster" Version="7.3.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Hosting.Abstractions" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Common\RSPL.Common.csproj" />
+    <ProjectReference Include="..\Domain\RSPL.Domain.csproj" />
+    <ProjectReference Include="..\Services.Abstractions\RSPL.Services.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>

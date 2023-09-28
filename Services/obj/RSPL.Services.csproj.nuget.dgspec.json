@@ -1,0 +1,365 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Ram Manohar Singh\\Desktop\\projects\\rspl_api - Latest\\RSPL WebApp\\Services\\RSPL.Services.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Ram Manohar Singh\\Desktop\\projects\\rspl_api - Latest\\RSPL WebApp\\Common\\RSPL.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ram Manohar Singh\\Desktop\\projects\\rspl_api - Latest\\RSPL WebApp\\Common\\RSPL.Common.csproj",
+        "projectName": "RSPL.Common",
+        "projectPath": "C:\\Users\\Ram Manohar Singh\\Desktop\\projects\\rspl_api - Latest\\RSPL WebApp\\Common\\RSPL.Common.csproj",
+        "packagesPath": "C:\\Users\\Ram Manohar Singh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ram Manohar Singh\\Desktop\\projects\\rspl_api - Latest\\RSPL WebApp\\Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ram Manohar Singh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Ram Manohar Singh\\Desktop\\projects\\rspl_api - Latest\\RSPL WebApp\\Contracts\\RSPL.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ram Manohar Singh\\Desktop\\projects\\rspl_api - Latest\\RSPL WebApp\\Contracts\\RSPL.Contracts.csproj",
+        "projectName": "RSPL.Contracts",
+        "projectPath": "C:\\Users\\Ram Manohar Singh\\Desktop\\projects\\rspl_api - Latest\\RSPL WebApp\\Contracts\\RSPL.Contracts.csproj",
+        "packagesPath": "C:\\Users\\Ram Manohar Singh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ram Manohar Singh\\Desktop\\projects\\rspl_api - Latest\\RSPL WebApp\\Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ram Manohar Singh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Ram Manohar Singh\\Desktop\\projects\\rspl_api - Latest\\RSPL WebApp\\Common\\RSPL.Common.csproj": {
+                "projectPath": "C:\\Users\\Ram Manohar Singh\\Desktop\\projects\\rspl_api - Latest\\RSPL WebApp\\Common\\RSPL.Common.csproj"
+              },
+              "C:\\Users\\Ram Manohar Singh\\Desktop\\projects\\rspl_api - Latest\\RSPL WebApp\\Domain\\RSPL.Domain.csproj": {
+                "projectPath": "C:\\Users\\Ram Manohar Singh\\Desktop\\projects\\rspl_api - Latest\\RSPL WebApp\\Domain\\RSPL.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Ram Manohar Singh\\Desktop\\projects\\rspl_api - Latest\\RSPL WebApp\\Domain\\RSPL.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ram Manohar Singh\\Desktop\\projects\\rspl_api - Latest\\RSPL WebApp\\Domain\\RSPL.Domain.csproj",
+        "projectName": "RSPL.Domain",
+        "projectPath": "C:\\Users\\Ram Manohar Singh\\Desktop\\projects\\rspl_api - Latest\\RSPL WebApp\\Domain\\RSPL.Domain.csproj",
+        "packagesPath": "C:\\Users\\Ram Manohar Singh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ram Manohar Singh\\Desktop\\projects\\rspl_api - Latest\\RSPL WebApp\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ram Manohar Singh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Ram Manohar Singh\\Desktop\\projects\\rspl_api - Latest\\RSPL WebApp\\Common\\RSPL.Common.csproj": {
+                "projectPath": "C:\\Users\\Ram Manohar Singh\\Desktop\\projects\\rspl_api - Latest\\RSPL WebApp\\Common\\RSPL.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Ram Manohar Singh\\Desktop\\projects\\rspl_api - Latest\\RSPL WebApp\\Services.Abstractions\\RSPL.Services.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ram Manohar Singh\\Desktop\\projects\\rspl_api - Latest\\RSPL WebApp\\Services.Abstractions\\RSPL.Services.Abstractions.csproj",
+        "projectName": "RSPL.Services.Abstractions",
+        "projectPath": "C:\\Users\\Ram Manohar Singh\\Desktop\\projects\\rspl_api - Latest\\RSPL WebApp\\Services.Abstractions\\RSPL.Services.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\Ram Manohar Singh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ram Manohar Singh\\Desktop\\projects\\rspl_api - Latest\\RSPL WebApp\\Services.Abstractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ram Manohar Singh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Ram Manohar Singh\\Desktop\\projects\\rspl_api - Latest\\RSPL WebApp\\Contracts\\RSPL.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Ram Manohar Singh\\Desktop\\projects\\rspl_api - Latest\\RSPL WebApp\\Contracts\\RSPL.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Ram Manohar Singh\\Desktop\\projects\\rspl_api - Latest\\RSPL WebApp\\Services\\RSPL.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ram Manohar Singh\\Desktop\\projects\\rspl_api - Latest\\RSPL WebApp\\Services\\RSPL.Services.csproj",
+        "projectName": "RSPL.Services",
+        "projectPath": "C:\\Users\\Ram Manohar Singh\\Desktop\\projects\\rspl_api - Latest\\RSPL WebApp\\Services\\RSPL.Services.csproj",
+        "packagesPath": "C:\\Users\\Ram Manohar Singh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ram Manohar Singh\\Desktop\\projects\\rspl_api - Latest\\RSPL WebApp\\Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ram Manohar Singh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Ram Manohar Singh\\Desktop\\projects\\rspl_api - Latest\\RSPL WebApp\\Common\\RSPL.Common.csproj": {
+                "projectPath": "C:\\Users\\Ram Manohar Singh\\Desktop\\projects\\rspl_api - Latest\\RSPL WebApp\\Common\\RSPL.Common.csproj"
+              },
+              "C:\\Users\\Ram Manohar Singh\\Desktop\\projects\\rspl_api - Latest\\RSPL WebApp\\Domain\\RSPL.Domain.csproj": {
+                "projectPath": "C:\\Users\\Ram Manohar Singh\\Desktop\\projects\\rspl_api - Latest\\RSPL WebApp\\Domain\\RSPL.Domain.csproj"
+              },
+              "C:\\Users\\Ram Manohar Singh\\Desktop\\projects\\rspl_api - Latest\\RSPL WebApp\\Services.Abstractions\\RSPL.Services.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\Ram Manohar Singh\\Desktop\\projects\\rspl_api - Latest\\RSPL WebApp\\Services.Abstractions\\RSPL.Services.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
+            "Microsoft.AspNetCore.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
